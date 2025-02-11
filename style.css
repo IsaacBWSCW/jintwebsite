@@ -1,0 +1,30 @@
+* {
+    font-family: InterVariable, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+button {
+    background-color: #1a1a1a; /* very dark grey */
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 25%;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+button:hover {
+    transform: scale(1.1);
+    font-weight: 700;
+}
